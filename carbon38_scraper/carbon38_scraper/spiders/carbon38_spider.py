@@ -5,7 +5,7 @@ from ..items import ProductItem  # Import the ProductItem
 class Carbon38Spider(scrapy.Spider):
     name = "carbon38"
     start_urls = [
-        "https://carbon38.com/en-in/collections/tops?filter.p.m.custom.available_or_waitlist=1&page=1"
+        "https://carbon38.com/en-in/collections/tops?filter.p.m.custom.available_or_waitlist=1&page=1" #starting url
     ]
 
     def parse(self, response):
