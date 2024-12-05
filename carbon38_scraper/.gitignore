@@ -1,0 +1,31 @@
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore the virtual environment folder (myenv)
+myenv/
+
+# Ignore Scrapy logs
+*.log
+
+# Ignore Scrapy output files (optional, depending on your needs)
+output.json
+output.csv
+
+# Ignore system files (Mac OS, Windows, etc.)
+.DS_Store
+Thumbs.db
+
+# Ignore configuration files for IDEs and editors (VS Code, PyCharm, etc.)
+.vscode/
+.idea/
+
+# Ignore Scrapy crawl result folder
+scrapy_output/
+
+# Ignore local SQLite database (if applicable)
+*.db
+
+# Ignore Scrapy cache (optional)
+.cache/
